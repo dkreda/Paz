@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#Main {
+    width: 750px;
+    margin: auto;
+    position: relative;
+    direction: rtl;
+}
+
+header {
+    border: solid 1px black;
+}
+
+header div {
+    margin: 15px;
+}
+
+#contenet div{
+    float: right;
+    width: 230px;
+    border: solid 1px black;
+    margin: 10px 10px;
+}
+
+.picUp {
+    /*float: left;*/
+    
+    height: 320px;
+    
+}
+
+.picUp img {
+    width: 100%;
+    border-bottom-right-radius: 30px;
+}
+
+.picDown {
+    height: 150px;
+}
