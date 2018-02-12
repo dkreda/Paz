@@ -9,7 +9,7 @@
 }
 
 #Main {
-    width: 810px;
+    width: 900px;
     margin: auto;
     position: relative;
     
@@ -19,10 +19,14 @@
 #Main > header > div {
     direction: ltr;
 }
-
+a {
+    color: white;
+ 
+}
 nav {
     font-weight: bold;
     margin: 10px;
+    
 }
 
 header {
@@ -30,24 +34,25 @@ header {
 }
 
 header div {
-    margin: 15px;
+    margin: 0;
 }
 
 #contenet div{
     float: right;
-    width: 250px;
+    width: 280px;
     border: solid 1px black;
     margin: 10px 10px;
 }
 
 .picUp {
     /*float: left;*/
-    height: 350px;
+    height: 300px;
     /*height: 320px;*/
     position: relative;
 }
 .picUp header {
     font-weight: bold;
+    font-size: 14px;
     /*color : green;*/
 }
 
@@ -69,9 +74,11 @@ header div {
 
 #contenet .innerDesc {
     position: absolute;
-    bottom: 2px;
-    right: 2px;
-    width: 80%;
+    bottom: 0;
+    right: 0;
+    width: 85%;
+    height: 30%;
+    margin: 4px;
     border-bottom-right-radius: 25px;
     background-color: rgba(100,100,100,0.75);
     font-size: 12px;
@@ -83,7 +90,19 @@ header div {
     border: solid 1px gray;
     position: absolute;
     width: 100%;
-    height: 60px;
+    height: 100px;
+    margin: 0 0;
+    
+}
+
+#block div:first-child {
+    height: 85%;
+    background-color: gray;
+}
+
+#block div:last-child {
+    height: 15%;
+    background: linear-gradient(gray,rgb(200,200,200));
 }
 
 #headerDown {
@@ -92,7 +111,8 @@ header div {
     clear: both;
     display: table;
     direction: ltr;
-    margin: 10px auto;
+    margin: 15px auto;
+    margin-bottom: 0;
 }
 
 #upperMenu {
@@ -100,8 +120,15 @@ header div {
     /*margin: 10px;*/
     float: left;
     border: solid 1px red;
-    padding: 20px 0;
+    /*padding: 15px 0;*/
+    margin-right: 40px;
+    margin-top: 25px;
+    /*vertical-align: middle;*/
 
+}
+
+#upperMenu img {
+    vertical-align: middle;
 }
 
 #upperMenu::after {
@@ -117,6 +144,7 @@ footer {
     width: 100%;
     bottom: 0;
     height: 50px;
+    background-color: gray;
 }
 
 footer nav {
@@ -133,16 +161,20 @@ footer nav {
 
 }
 .menuNav {
-    padding: 5px 10px;
-    border-left: solid 2px gray;
+    padding: 0 10px;
+    display: inline-block;
+    /*line-height: 340%;*/
+    /*border-left: solid 2px gray;*/
 }
 .dMap section {
     /*margin: auto 0;*/
     margin-top: 30px;
     /*background-color: aqua;*/
+    
 }
 .dMap a {
     display: block;
+    color: blue;
 }
 
 .dMap img {
@@ -155,15 +187,25 @@ nav a {
 
 #logo {
     position: relative;
-    top: -10px;
+    top: 0px;
     right: 0;
     /*bottom: -10px;*/
 }
 
 .readMore {
     text-align: left;
+    display: inline-block;
+    /*height: 25px;*/
+    position: absolute;
+    left:10px;;
+    bottom: 1px;
     /* remove ... */
     text-decoration: none;
+}
+.readMore img {
+    width: auto;
+    height: 100%;
+    border-radius: 0;
 }
 
 #contenet::after {
