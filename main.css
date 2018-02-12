@@ -40,3 +40,12 @@ header div {
 .picDown {
     height: 150px;
 }
+
+.innerDesc {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 60%;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(100,100,100,0.75);
+}
