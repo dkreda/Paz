@@ -79,6 +79,13 @@ header div {
     color: white;
 }
 
+#block {
+    border: solid 1px gray;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+
 #headerDown {
     /*position: relative;*/
     border: solid 1px green;
@@ -157,5 +164,17 @@ nav a {
     text-align: left;
     /* remove ... */
     text-decoration: none;
+}
+
+#contenet::after {
+    clear: both;
+    display: table;
+}
+
+#empty {
+    margin: 20px;
+    padding: 30px;
+    clear: both;
+    /*display: block;*/
 }
 
