@@ -272,10 +272,18 @@ nav a {
     top: 100%;
     left: 0;
     display: none;
+    z-index: 3;
+    direction: rtl;
+    text-align: right;
 }
 .menuNav {
     position: relative;
+    direction: rtl;
     /*background-color: aqua;*/
+}
+
+.menuItem:hover {
+    background-color: aquamarine;
 }
 
 .menuNav:hover {
@@ -284,10 +292,13 @@ nav a {
 
 .menuNav:hover .menuBox {
     display: block;
+    width: 110px;
 }
 
 #upperMenu a {
     display: inline-block;
     position: relative;
+    text-align: right;
+   
 }
 
