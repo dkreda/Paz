@@ -63,22 +63,27 @@ header div {
 
 }
 
+
 .picDown {
-    height: 150px;
+    height: 200px;
     border-top-right-radius: 25px;
     position: relative;
+    padding: 0 20px;
 }
 
 #contenet .picDown div {
-    margin: 0 10px;
+    
     clear: both;
     display: table;
     content: "";
     width: 100%;
+    height: 100%;
+    margin: 0 0;
 }
 
 .picDown img {
     width: 100%;
+    padding-top: 10px;
 }
 
 #contenet .innerDesc {
@@ -93,6 +98,16 @@ header div {
     font-size: 12px;
     padding-right: 10px;
     color: white;
+}
+
+#contenet #map .dMap {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    /*float: left;*/
+    margin: 0;
+    background-color: aquamarine;
+
 }
 
 #block {
@@ -161,14 +176,7 @@ footer nav {
 }
 
 
-#map .dMap {
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    /*float: left;*/
-    margin: 0;
 
-}
 .menuNav {
     padding: 0 10px;
     display: inline-block;
@@ -227,5 +235,12 @@ nav a {
     padding: 30px;
     clear: both;
     /*display: block;*/
+}
+
+.bottomContext {
+    font-weight: bold;
+    line-height: 200%;
+    border-bottom: solid 2px gray;
+    /*border-bottom-color: gray;*/
 }
 
