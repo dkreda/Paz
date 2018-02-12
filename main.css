@@ -28,12 +28,13 @@ header div {
     /*float: left;*/
     
     height: 320px;
-    
+    position: relative;
 }
 
 .picUp img {
     width: 100%;
     border-bottom-right-radius: 30px;
+
 }
 
 .picDown {
