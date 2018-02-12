@@ -66,6 +66,14 @@ header div {
 .picDown {
     height: 150px;
     border-top-right-radius: 25px;
+    position: relative;
+}
+
+#contenet .picDown div {
+    margin: 0 10px;
+    clear: both;
+    display: block;
+    width: 100%;
 }
 
 .picDown img {
