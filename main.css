@@ -100,15 +100,6 @@ header div {
     color: white;
 }
 
-#contenet #map .dMap {
-    display: inline-block;
-    width: 25%;
-    height: 100%;
-    /*float: left;*/
-    margin: 0;
-    background-color: aquamarine;
-
-}
 
 #block {
     border: solid 1px gray;
@@ -147,8 +138,19 @@ header div {
     /*padding: 15px 0;*/
     margin-right: 40px;
     margin-top: 25px;
+    position: relative;
     /*vertical-align: middle;*/
 
+}
+#upperMenu ul {
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+#upperMenu li {
+    padding: 0;
 }
 
 #upperMenu img {
@@ -186,16 +188,19 @@ footer nav {
 .dMap section {
     /*margin: auto 0;*/
     margin-top: 30px;
+    border: none ;
     /*background-color: aqua;*/
     
 }
 .dMap a {
     display: block;
     color: blue;
+
 }
 
 .dMap img {
     height: 100%;
+    width: auto;
 }
 
 nav a {
@@ -242,5 +247,47 @@ nav a {
     line-height: 200%;
     border-bottom: solid 2px gray;
     /*border-bottom-color: gray;*/
+}
+
+#contenet #map .dMap {
+    display: inline-block;
+    width: 50%;
+    clear: none;
+    height: 150px;
+    /*float: right;
+    /*float: left;
+    margin: 0;
+    background-color: aquamarine;
+    clear: both;*/
+}
+#upperMenu .menuItem {
+     display: block;
+     padding: 1px 5px;
+     /*height: 120%;
+     width: 70px;*/
+ }
+.menuBox {
+    background-color: gray;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.menuNav {
+    position: relative;
+    /*background-color: aqua;*/
+}
+
+.menuNav:hover {
+    background-color: aqua;
+}
+
+.menuNav:hover .menuBox {
+    display: block;
+}
+
+#upperMenu a {
+    display: inline-block;
+    position: relative;
 }
 
