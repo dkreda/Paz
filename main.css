@@ -39,6 +39,11 @@ header div {
 
 .picDown {
     height: 150px;
+    border-top-right-radius: 30px;
+}
+
+.picDown img {
+    width: 100%;
 }
 
 .innerDesc {
@@ -70,3 +75,27 @@ footer {
 footer nav {
     position: absolute;
 }
+
+
+#map .dMap {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*float: left;*/
+    margin: 0;
+
+}
+
+.dMap section {
+    /*margin: auto 0;*/
+    margin-top: 30px;
+    /*background-color: aqua;*/
+}
+.dMap a {
+    display: block;
+}
+
+.dMap img {
+    height: 100%;
+}
+
