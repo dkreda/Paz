@@ -49,3 +49,11 @@ header div {
     border-bottom-right-radius: 30px;
     background-color: rgba(100,100,100,0.75);
 }
+
+#headerDown {
+    position: relative;
+}
+
+#upperMenu {
+    margin: auto;
+}
