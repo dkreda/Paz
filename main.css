@@ -55,5 +55,18 @@ header div {
 }
 
 #upperMenu {
+
     margin: auto;
+}
+
+footer {
+    border: solid 1px red;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}
+
+footer nav {
+    position: absolute;
 }
