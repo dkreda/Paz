@@ -9,15 +9,20 @@
 }
 
 #Main {
-    width: 750px;
+    width: 810px;
     margin: auto;
     position: relative;
     
     
 }
 
+#Main > header > div {
+    direction: ltr;
+}
+
 nav {
     font-weight: bold;
+    margin: 10px;
 }
 
 header {
@@ -30,50 +35,74 @@ header div {
 
 #contenet div{
     float: right;
-    width: 230px;
+    width: 250px;
     border: solid 1px black;
     margin: 10px 10px;
 }
 
 .picUp {
     /*float: left;*/
-    
-    height: 320px;
+    height: 350px;
+    /*height: 320px;*/
     position: relative;
+}
+.picUp header {
+    font-weight: bold;
+    /*color : green;*/
 }
 
 .picUp img {
     width: 100%;
-    border-bottom-right-radius: 30px;
+    height: 100%;
+    border-bottom-right-radius: 25px;
 
 }
 
 .picDown {
     height: 150px;
-    border-top-right-radius: 30px;
+    border-top-right-radius: 25px;
 }
 
 .picDown img {
     width: 100%;
 }
 
-.innerDesc {
+#contenet .innerDesc {
     position: absolute;
     bottom: 2px;
     right: 2px;
-    width: 60%;
-    border-bottom-right-radius: 30px;
+    width: 80%;
+    border-bottom-right-radius: 25px;
     background-color: rgba(100,100,100,0.75);
+    font-size: 12px;
+    padding-right: 10px;
+    color: white;
 }
 
 #headerDown {
-    position: relative;
+    /*position: relative;*/
+    border: solid 1px green;
+    clear: both;
+    display: table;
+    direction: ltr;
+    margin: 10px auto;
 }
 
 #upperMenu {
 
-    margin: auto;
+    /*margin: 10px;*/
+    float: left;
+    border: solid 1px red;
+    padding: 20px 0;
+
 }
+
+#upperMenu::after {
+    clear: both;
+    content: "" ;
+    /*display: table;*/
+}
+
 
 footer {
     border: solid 1px red;
@@ -96,7 +125,10 @@ footer nav {
     margin: 0;
 
 }
-
+.menuNav {
+    padding: 5px 10px;
+    border-left: solid 2px gray;
+}
 .dMap section {
     /*margin: auto 0;*/
     margin-top: 30px;
@@ -111,6 +143,19 @@ footer nav {
 }
 
 nav a {
+    text-decoration: none;
+}
+
+#logo {
+    position: relative;
+    top: -10px;
+    right: 0;
+    /*bottom: -10px;*/
+}
+
+.readMore {
+    text-align: left;
+    /* remove ... */
     text-decoration: none;
 }
 
