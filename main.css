@@ -72,7 +72,8 @@ header div {
 #contenet .picDown div {
     margin: 0 10px;
     clear: both;
-    display: block;
+    display: table;
+    content: "";
     width: 100%;
 }
 
