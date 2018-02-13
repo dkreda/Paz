@@ -26,6 +26,7 @@ a {
 nav {
     font-weight: bold;
     margin: 10px;
+    direction: rtl;
     
 }
 
@@ -270,11 +271,12 @@ nav a {
     background-color: gray;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     display: none;
     z-index: 3;
     direction: rtl;
     text-align: right;
+    line-height: 150%;
 }
 .menuNav {
     position: relative;
@@ -283,11 +285,15 @@ nav a {
 }
 
 .menuItem:hover {
-    background-color: aquamarine;
+    background-color: rgb(200,200,200);
+    color: blue;
+    text-decoration: underline;
 }
 
-.menuNav:hover {
-    background-color: aqua;
+.menuNav:hover > a{
+    /*background-color: aqua;*/
+    color: blue;
+    text-decoration: underline;
 }
 
 .menuNav:hover .menuBox {
