@@ -78,8 +78,14 @@ header div {
     display: table;
     content: "";
     width: 100%;
-    height: 100%;
+  
     margin: 0 0;
+}
+
+div.picDown div:only-child {
+    position: relative;
+    height: 100%;
+    /*background-color: blueviolet;*/
 }
 
 .picDown img {
@@ -193,7 +199,7 @@ footer nav {
     /*background-color: aqua;*/
     
 }
-.dMap a {
+#map .dMap a {
     display: block;
     color: blue;
 
@@ -215,7 +221,7 @@ nav a {
     /*bottom: -10px;*/
 }
 
-.readMore {
+.readMore , .more {
     text-align: left;
     display: inline-block;
     /*height: 25px;*/
@@ -225,7 +231,11 @@ nav a {
     /* remove ... */
     text-decoration: none;
 }
-.readMore img {
+
+.more {
+    color: gray;
+}
+.readMore img , .more img{
     width: auto;
     height: 100%;
     border-radius: 0;
@@ -315,4 +325,12 @@ nav a {
     text-align: right;
    
 }
+/*
+div.picDown a {
+    color: gray;
+    position: absolute;
+    left: 2px;
+    bottom: 5px;
+}*/
+
 
