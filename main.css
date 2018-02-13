@@ -176,7 +176,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 50px;
+    height: 40px;
     background-color: gray;
 }
 
@@ -315,8 +315,9 @@ nav a {
 }
 
 
-.menuNav:nth-child(6) .menuBox{
+.menuNav:nth-child(7) .menuBox{
     width: 150px;
+    /*background-color: blueviolet;*/
 }
 
 #upperMenu a {
@@ -325,12 +326,17 @@ nav a {
     text-align: right;
    
 }
-/*
-div.picDown a {
-    color: gray;
-    position: absolute;
-    left: 2px;
-    bottom: 5px;
-}*/
 
+#bottomMenue {
+    left: calc(100% - 900px) ;
+    /*position: absolute;*/
+    /*margin: auto auto;*/
+}
 
+#bottomMenue .menuNav {
+    border-right: solid 2px white;
+}
+
+#bottomMenue .menuNav:first-child {
+    border-right: none; 
+}
