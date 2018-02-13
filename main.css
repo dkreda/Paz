@@ -277,6 +277,9 @@ nav a {
     direction: rtl;
     text-align: right;
     line-height: 150%;
+    width: 110px;
+
+ 
 }
 .menuNav {
     position: relative;
@@ -298,7 +301,12 @@ nav a {
 
 .menuNav:hover .menuBox {
     display: block;
-    width: 110px;
+ 
+}
+
+
+.menuNav:nth-child(6) .menuBox{
+    width: 150px;
 }
 
 #upperMenu a {
