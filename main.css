@@ -70,6 +70,8 @@ header div {
     border-top-right-radius: 25px;
     position: relative;
     padding: 0 20px;
+    border: solid 2px rgb(220,220,220);
+    background: linear-gradient(rgb(255,255,255),rgb(220,220,220));
 }
 
 #contenet .picDown div {
@@ -123,7 +125,8 @@ div.picDown div:only-child {
 
 #headerUp {
     /*border: solid 1px black;*/
-    margin: 15px 30px 0 ;
+    margin: 0 30px 0 ;
+    padding: 15px 0 0 0;
     /*left: 25px;*/
 }
 
@@ -246,7 +249,7 @@ nav a {
 
 #logo {
     position: relative;
-    top: 0px;
+    top: -10px;
     right: 0;
     /*bottom: -10px;*/
 }
@@ -264,6 +267,9 @@ nav a {
 
 .more {
     color: gray;
+    bottom: 15px;
+    font-size: 12px;
+    text-decoration: underline;
 }
 .readMore img , .more img{
     width: auto;
